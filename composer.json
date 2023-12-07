@@ -1,0 +1,20 @@
+{
+    "name": "polashmahmud/taggy",
+    "description": "An Eloquent tagging package for laravel",
+    "autoload": {
+        "psr-4": {
+            "Polashmahmud\\Taggy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Polash Mahmud",
+            "email": "polashmahmud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/database": ">=6.0-dev",
+        "illuminate/support": ">=6.0-dev"
+    }
+}
