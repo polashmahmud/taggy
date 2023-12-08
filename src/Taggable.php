@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 use Polashmahmud\Taggy\Models\Tag;
 use Polashmahmud\Taggy\Scopes\TaggableScopesTrait;
 
-trait TaggableTrait
+trait Taggable
 {
     use TaggableScopesTrait;
 
