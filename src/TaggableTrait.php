@@ -54,8 +54,6 @@ trait TaggableTrait
         }
     }
 
-
-
     private function addTags(Collection $tags)
     {
         $sync = $this->tags()->syncWithoutDetaching($tags->pluck('id')->toArray());
